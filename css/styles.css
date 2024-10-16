@@ -196,7 +196,8 @@ align-items: center;
 }
 
 .feature-item{
-    width: calc((100% - 4 * 70px) / 3);
+    /*width: calc((100% - 4 * 70px) / 3);*/
+    width: calc((100% - 72px) / 4);
 }
 
 .feature-title-list {
@@ -319,11 +320,13 @@ align-items: center;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 
 .portfolio-item {
-    display: flex;
+
     width: calc((100% - 48px) / 3);
+    
 }
 
 .portfolio-container{
