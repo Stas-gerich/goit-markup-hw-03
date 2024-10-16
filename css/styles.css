@@ -323,9 +323,7 @@ align-items: center;
    
 }
 
-.portfolio-item {
-width: calc((100% - 4 * 70px) / 3);
-}
+
 
 .portfolio-container{
     padding: 32px 16px;
@@ -333,6 +331,7 @@ width: calc((100% - 4 * 70px) / 3);
      width: 360px;
      height: 120px;
     border-top: none;
+    width: calc((100% - 4 * 70px) / 3);
 }
 
 .feature-title{
