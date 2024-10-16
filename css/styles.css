@@ -242,7 +242,10 @@ align-items: center;
     padding-bottom: 120px;
 }
 
-
+.team-title-item {
+    text-align: center;
+    margin-bottom: 8px;
+}
  
 .team-item {
     border-radius: 0px 0px 4px 4px;
@@ -316,16 +319,12 @@ align-items: center;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
    
 }
 
 .portfolio-item {
-    
-    background: #fff;
-    max-height: 420px;
-    width: calc((100% - 48px) / 3);
-    
-    
+    width: calc((100% - 48px) / 3);   
 }
 
 .portfolio-container{
