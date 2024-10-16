@@ -217,13 +217,16 @@ align-items: center;
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* #endregion Feature */
@@ -240,16 +243,7 @@ align-items: center;
 }
 
 
-  .team-title-item {
-    text-align: center;
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        margin-bottom: 8px;
-  }
-
+ 
 .team-item {
     border-radius: 0px 0px 4px 4px;
 }
@@ -326,9 +320,10 @@ align-items: center;
 }
 
 .portfolio-item {
-    width: calc((100% - 48px) / 3);
+    
     background: #fff;
     max-height: 420px;
+    width: calc((100% - 48px) / 3);
     
     
 }
