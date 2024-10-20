@@ -324,7 +324,7 @@ align-items: center;
 }
 
 .portfolio-item {
-
+    gap: 24px;
     width: calc((100% - 48px) / 3);
     
 }
